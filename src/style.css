@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ZenDots';
+    src: local(''),
+     url('../ZenDots-Regular.ttf') format('ttf');    
+  }
+
+.hello {
+    color: red;
+    font-size: 25px;
+    font-family: 'ZenDots';
+    background: url('./kit.jpg');
+  }
