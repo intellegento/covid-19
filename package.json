@@ -3,7 +3,8 @@
     "css-loader": "^5.2.4",
     "style-loader": "^2.0.0",
     "webpack": "^5.36.0",
-    "webpack-cli": "^4.6.0"
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   },
   "name": "covid-19",
   "version": "1.0.0",
@@ -62,6 +63,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
     "build": "webpack"
   },
   "repository": {
