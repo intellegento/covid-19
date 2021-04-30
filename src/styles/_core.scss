@@ -1,33 +1,39 @@
-/* raleway-regular - latin */
+/* Roboto-regular */
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   src: local(''),
-  url('../inline/raleway-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  url('../inline/raleway-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  url('../inline/Roboto-Regular.ttf'); 
 }
-/* raleway-600 - latin */
+/* Roboto-bold */
 @font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 600;
-  src: local(''),
-  url('../inline/raleway-v19-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  url('../inline/raleway-v19-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* raleway-700 - latin */
-@font-face {
-  font-family: 'Raleway';
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   src: local(''),
-  url('../inline/raleway-v19-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  url('../inline/raleway-v19-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  url('../inline/Roboto-Bold.ttf'); 
+}
+/* Montserrat-Regular */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+  url('../inline/Montserrat-Regular.ttf'); 
+}
+
+/* Montserrat-bold */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+  url('../inline/Montserrat-Bold.ttf'); 
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #212121;
   position: relative;
 }

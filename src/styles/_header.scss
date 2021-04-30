@@ -1,0 +1,16 @@
+.container-fluid-header {
+    height: 1100px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.29), rgba(255, 248, 248, 0.48), rgba(181, 116, 116, 0.45));
+
+    .navbar-collapse-style {
+        flex-grow: 0;
+    }
+
+    .btn-nav {
+        width: 154px;
+        height: 55px;
+        color: #FF383D;
+        border: 2px solid #FF383D;
+        border-radius: 12%;
+    }
+}
