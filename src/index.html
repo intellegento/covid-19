@@ -13,7 +13,7 @@
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container">
                 <a class="navbar-brand" href="#home">
-                    <img src="<%=require('./resource/Logo.svg')%>" alt="Dart Service Management">
+                    <img src="<%=require('./resource/Logo.svg')%>" alt="Covid-19">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-placement="bottom" data-bs-toggle="collapse"
                     data-toggle="dropdown" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
@@ -23,22 +23,119 @@
                 <div class="collapse navbar-collapse navbar-collapse-style" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-5 mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#overview">Overview</a>
+                            <a class="nav-link" aria-current="page" href="#overview">Описание</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contagion">Contagion</a>
+                            <a class="nav-link" href="#contagion">Заражение</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#symptoms">Symptoms</a>
+                            <a class="nav-link" href="#symptoms">Симптомы</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#prevention">Prevention</a>
+                            <a class="nav-link" href="#prevention">Профилактика</a>
                         </li>
                     </ul>
-                    <button class="btn btn-outline-success btn-nav" type="button">Contact</button>
+                    <button class="btn btn-nav" type="button">Контакты</button>
                 </div>
             </div>
-        </nav>        
+        </nav> 
+        
+        <div class="container">
+            <div class="row align-items-center promo">
+                <div class="col-12 col-lg-5">
+                    <div class="promo-text">
+                        <h2 class="title">Covid-19</h2>
+                        <h1 class="sub-title">Оставайтесь дома<br>Чтобы остановить распространение Корона-вируса</h1>
+                        <div class="descr">
+                            Оставайтесь дома или держитесь подальше от других людей, если вы
+                            плохо себя чувствуете и имеете высокую температуру, кашель или
+                            затрудненное дыхание
+                        </div>
+                        <button class="promo-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" name="let up help" type="button">Позволь нам помочь</button>                            
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7">
+                    <img src="<%=require('./resource/Illustration01.svg')%>" alt="">
+                </div>
+            </div>
+        </div>
     </header>
+
+    <section class="about">
+        <div class="container">
+            <div class="row align-items-center about-row">
+                <div class="col">
+                    <img src="<%=require('./resource/Group5404.svg')%>" alt="">
+                </div>
+                <div class="col">
+                    <div class="promo-text">
+                        <h2 class="title">Что такое Covid-19</h2>
+                        <h1 class="sub-title">Коронавирус</h1>
+                        <div class="descr">
+                            Коронавирусы – это семейство вирусов, которые найдены как у человека, так и у животных. Обычно коронавирусы вызывают
+                            легкие воспалительные процессы в дыхательных путях. Более серьезные клинические случаи были вызваны SARS- и
+                            MERS-коронавирусами. Вирус SARS-CoV-2 генетически похож на SARS коронавирус.
+                        </div>                       
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contagion">
+        <div class="container">
+            <div class="promo-text center-t">
+                <h2 class="title">Covid-19</h2>
+                <h1 class="sub-title">Заражение</h1>
+                <div class="descr">
+                    Коронавирусная инфекция COVID-19 воздействует на различные группы людей в разной степени. У большинства
+                    инфицированных болезнь протекает в легкой или средней форме тяжести, и им не требуется госпитализация.
+                </div>
+            </div>  
+            <div class="row row-contagion">
+                <div class="col-sm-4">
+                    <div class="card card-contagion text-center">
+                        <div class="card-body card-body-contagion">
+                            <img class="img-contagion" src="<%=require('./resource/air.svg')%>" alt="">
+                            <h5 class="card-title card-title-contagion">Воздушным путем</h5>
+                            <p class="card-text card-text-contagion">Носите маски, не используйте повторно одноразовые маски.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card card-contagion text-center">
+                        <div class="card-body card-body-contagion">
+                            <img class="img-contagion" src="<%=require('./resource/human.svg')%>" alt="">
+                            <h5 class="card-title card-title-contagion">Контакты</h5>
+                            <p class="card-text card-text-contagion">Мойте чаще руки, используйте дезинфицирующие средстваю</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card card-contagion text-center">
+                        <div class="card-body card-body-contagion">
+                            <img class="img-contagion" src="<%=require('./resource/contained.svg')%>" alt="">
+                            <h5 class="card-title card-title-contagion">Воздушным путем</h5>
+                            <p class="card-text card-text-contagion">Носите маски, не используйте повторно одноразовые маски.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="symptoms">
+        <div class="container">
+            <div class="promo-text center-t">
+                <h2 class="title">Covid-19</h2>
+                <h1 class="sub-title">Симптомы</h1>
+                <div class="descr">
+                    Похожие симптомы встречаются у пациентов с ОРВИ или гриппом. При их обнаружении необходимо незамедлительно
+                    обратиться к врачу для получения медицинской помощи и исключения коронавируса.
+                </div>
+            </div> 
+            <img class="img-symptoms" src="<%=require('./resource/symptoms.svg')%>" alt="">             
+        </div>
+    </section>
 </body>
 </html>
