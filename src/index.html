@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <title>
         COVID-19
     </title>
@@ -32,14 +34,14 @@
                             <a class="nav-link" href="#symptoms">Симптомы</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#prevention">Профилактика</a>
+                            <a class="nav-link" href="#what-should-we-do">Профилактика</a>
                         </li>
                     </ul>
                     <button class="btn btn-nav" type="button">Контакты</button>
                 </div>
             </div>
-        </nav> 
-        
+        </nav>
+
         <div class="container">
             <div class="row align-items-center promo">
                 <div class="col-12 col-lg-5">
@@ -51,7 +53,8 @@
                             плохо себя чувствуете и имеете высокую температуру, кашель или
                             затрудненное дыхание
                         </div>
-                        <button class="promo-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" name="let up help" type="button">Позволь нам помочь</button>                            
+                        <button class="promo-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            name="let up help" type="button">Позволь нам помочь</button>
                     </div>
                 </div>
                 <div class="col-12 col-lg-7">
@@ -61,7 +64,7 @@
         </div>
     </header>
 
-    <section class="about">
+    <section id="about">
         <div class="container">
             <div class="row align-items-center about-row">
                 <div class="col">
@@ -72,33 +75,38 @@
                         <h2 class="title">Что такое Covid-19</h2>
                         <h1 class="sub-title">Коронавирус</h1>
                         <div class="descr">
-                            Коронавирусы – это семейство вирусов, которые найдены как у человека, так и у животных. Обычно коронавирусы вызывают
-                            легкие воспалительные процессы в дыхательных путях. Более серьезные клинические случаи были вызваны SARS- и
+                            Коронавирусы – это семейство вирусов, которые найдены как у человека, так и у животных.
+                            Обычно коронавирусы вызывают
+                            легкие воспалительные процессы в дыхательных путях. Более серьезные клинические случаи были
+                            вызваны SARS- и
                             MERS-коронавирусами. Вирус SARS-CoV-2 генетически похож на SARS коронавирус.
-                        </div>                       
-                    </div>                    
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="contagion">
+    <section id="contagion">
         <div class="container">
             <div class="promo-text center-t">
                 <h2 class="title">Covid-19</h2>
                 <h1 class="sub-title">Заражение</h1>
                 <div class="descr">
-                    Коронавирусная инфекция COVID-19 воздействует на различные группы людей в разной степени. У большинства
-                    инфицированных болезнь протекает в легкой или средней форме тяжести, и им не требуется госпитализация.
+                    Коронавирусная инфекция COVID-19 воздействует на различные группы людей в разной степени. У
+                    большинства
+                    инфицированных болезнь протекает в легкой или средней форме тяжести, и им не требуется
+                    госпитализация.
                 </div>
-            </div>  
+            </div>
             <div class="row row-contagion">
                 <div class="col-sm-4">
                     <div class="card card-contagion text-center">
                         <div class="card-body card-body-contagion">
                             <img class="img-contagion" src="<%=require('./resource/air.svg')%>" alt="">
                             <h5 class="card-title card-title-contagion">Воздушным путем</h5>
-                            <p class="card-text card-text-contagion">Носите маски, не используйте повторно одноразовые маски.</p>
+                            <p class="card-text card-text-contagion">Носите маски, не используйте повторно одноразовые
+                                маски.</p>
                         </div>
                     </div>
                 </div>
@@ -107,7 +115,8 @@
                         <div class="card-body card-body-contagion">
                             <img class="img-contagion" src="<%=require('./resource/human.svg')%>" alt="">
                             <h5 class="card-title card-title-contagion">Контакты</h5>
-                            <p class="card-text card-text-contagion">Мойте чаще руки, используйте дезинфицирующие средстваю</p>
+                            <p class="card-text card-text-contagion">Мойте чаще руки, используйте дезинфицирующие
+                                средстваю</p>
                         </div>
                     </div>
                 </div>
@@ -116,7 +125,8 @@
                         <div class="card-body card-body-contagion">
                             <img class="img-contagion" src="<%=require('./resource/contained.svg')%>" alt="">
                             <h5 class="card-title card-title-contagion">Воздушным путем</h5>
-                            <p class="card-text card-text-contagion">Носите маски, не используйте повторно одноразовые маски.</p>
+                            <p class="card-text card-text-contagion">Носите маски, не используйте повторно одноразовые
+                                маски.</p>
                         </div>
                     </div>
                 </div>
@@ -124,18 +134,159 @@
         </div>
     </section>
 
-    <section class="symptoms">
+    <section id="symptoms">
         <div class="container">
             <div class="promo-text center-t">
                 <h2 class="title">Covid-19</h2>
                 <h1 class="sub-title">Симптомы</h1>
                 <div class="descr">
-                    Похожие симптомы встречаются у пациентов с ОРВИ или гриппом. При их обнаружении необходимо незамедлительно
+                    Похожие симптомы встречаются у пациентов с ОРВИ или гриппом. При их обнаружении необходимо
+                    незамедлительно
                     обратиться к врачу для получения медицинской помощи и исключения коронавируса.
                 </div>
-            </div> 
-            <img class="img-symptoms" src="<%=require('./resource/symptoms.svg')%>" alt="">             
+            </div>
+            <div class="img-symptoms">
+                <img src="<%=require('./resource/symptoms.svg')%>" alt="">
+            </div>
+            
         </div>
     </section>
+
+    <section id="what-should-we-do">
+        <div class="container">
+            <div class="promo-text center-t">
+                <h2 class="title">Covid-19</h2>
+                <h1 class="sub-title">Что нужно делать</h1>
+                <div class="descr">
+                    Следуйте инструкциям, приведенным в этом разделе, чтобы предотвратить распространение COVID-19 среди
+                    ваших
+                    домочадцев или соседей.
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-between">
+                <div class="col">
+                    <div class="what-should-t">
+                        <div class="what-should-number">01</div>
+                        <div class="what-should-title">Носите маски</div>
+                    </div>
+                    <div class="what-should-descr">
+                        Выработайте привычку носить маску в людных местах. С тем чтобы обеспечить максимальную
+                        эффективность применения
+                        масок, их необходимо надлежащим образом использовать, хранить, обрабатывать и утилизировать.
+                    </div>
+                </div>
+                <div class="col">
+                    <img class="img-symptoms" src="<%=require('./resource/mask-girl.svg')%>" alt="">
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-between">
+
+                <div class="col">
+                    <img class="img-symptoms" src="<%=require('./resource/mask-girl-hand.svg')%>" alt="">
+                </div>
+                <div class="col">
+                    <div class="what-should-t">
+                        <div class="what-should-number">02</div>
+                        <div class="what-should-title">Соблюдайте гигиену</div>
+                    </div>
+                    <div class="what-should-descr">
+                        Регулярно обрабатывайте руки спиртосодержащим средством или мойте их с мылом. Эта мера позволят
+                        устранить возможное
+                        микробное загрязнение рук, в том числе вирусное.
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-between">
+                <div class="col">
+                    <div class="what-should-t">
+                        <div class="what-should-number">03</div>
+                        <div class="what-should-title">Используйте салфетки</div>
+                    </div>
+                    <div class="what-should-descr">
+                        Использованную салфетку нужно сразу же выбросить в бак с закрывающейся крышкой и вымыть руки.
+                        Строго соблюдая
+                        правила респираторной гигиены, вы можете защитить окружающих от заболеваний, вызванных вирусами,
+                        например, ОРВИ,
+                        гриппа и COVID-19.
+                    </div>
+                </div>
+                <div class="col">
+                    <img class="img-symptoms" src="<%=require('./resource/mask-girl-rag.svg')%>" alt="">
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-between">
+
+                <div class="col">
+                    <img class="img-symptoms" src="<%=require('./resource/mask-girl-contact.svg')%>" alt="">
+                </div>
+                <div class="col">
+                    <div class="what-should-t">
+                        <div class="what-should-number">04</div>
+                        <div class="what-should-title">Избегайте скопления людей</div>
+                    </div>
+                    <div class="what-should-descr">
+                        Сообщается о вспышках заболевания среди гостей ресторанов, участников хоровых коллективов,
+                        посетителей фитнес
+                        клубов, ночных клубов, офисов и культовых зданий, зачастую с анамнезом пребывания в закрытых
+                        помещениях, в которых
+                        люди громко разговаривают, кричат, интенсивно дышат или поют.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="live-report">
+        <div class="container">
+            <div class="map">
+                <img class="map-img" src="<%=require('./resource/map.svg')%>" alt="">
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="subscribe">
+        <div class="container">
+            <h1 class="sub-title center-t">У Вас остались вопросы? Позвольте нам помочь Вам разобраться </h1>
+            <div class="input-group subscribe-input">
+                <input type="email" class="form-control subscribe-form" placeholder="Введите свой E-mail, и мы свяжемся с Вами" aria-label="email"
+                    aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary subscribe-btn" type="button"
+                    id="button-addon2">Отправить</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row footer-row">
+                <div class="col-auto">
+                    <img src="<%=require('./resource/Logo.svg')%>" alt="">
+                </div>
+                <div class="col-auto">
+                    <nav class="nav-footer">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="#overview">Описание</a></li>
+                            <li class="nav-item"><a href="#contagion">Заражение</a></li>
+                            <li class="nav-item"><a href="#symptoms">Симптомы</a></li>
+                            <li class="nav-item"><a href="#what-should-we-do">Профилактика</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-auto">
+                    <div class="footer-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                2020 @ All rights reserved by pixelspark.co
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

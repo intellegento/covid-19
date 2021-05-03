@@ -1,0 +1,29 @@
+.what-should-t {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  .what-should-number {
+    font-size: 44px;
+    color: #fa5652;
+    font-weight: 700;
+    background-color: rgba(250, 86, 82, 0.15);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 40px;
+  }
+
+  .what-should-title {
+    font-size: 47px;
+    color: #035755;
+    font-weight: 700;
+  }
+}
+
+.what-should-descr {
+  font-size: 18px;
+  color: #4b4f51;
+  width: 70%;
+  margin-left: 110px;
+}

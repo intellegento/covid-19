@@ -1,0 +1,40 @@
+.subscribe-input {
+  width: 60%;
+  height: 114px;
+  margin: 50px auto 150px auto;
+  box-shadow: 0 15px 30px rgba(20, 20, 20, 0.1);
+  border-radius: 57px;
+
+  .subscribe-form {
+    font-size: 22px;
+    color: #b8ccc6;
+    border: none;
+    margin-left: 57px;
+    &:focus {
+      border-color: transparent;
+      box-shadow: none;
+      border: none;
+      color: #758681;
+    }
+  }
+
+  .subscribe-btn {
+    margin: 18px;
+    color: #fff;
+    background-color: #f44a45;
+    width: 210px;
+    height: 78px;
+    border: none;
+    border-radius: 39px;
+    transition: all 0.2s linear;
+
+    &:hover {
+      background-color: #035755;
+    }
+  }
+}
+.input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  border-top-left-radius: 39px;
+  border-bottom-left-radius: 39px;
+}

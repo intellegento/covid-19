@@ -1,32 +1,31 @@
 .row-contagion {
-    margin-bottom: 70px;
-    .card-contagion {
-        background-color: #fff;
-        border: none;
-        border-radius: 10px;
-        box-shadow: 0 15px 30px rgba(20, 20, 20, 0.1);
-        transition: all 0.2s linear;
-        &:hover {
-            box-shadow: 0 15px 30px rgba(20, 20, 20, 0.3);
-            border-bottom: 10px solid #ff383d;
-        }
-        .card-body-contagion {        
-            .img-contagion {
-                width: 255px;
-                height: 233px;
-                margin: 65px auto;
-            }
-            .card-title-contagion {
-                font-size: 36px;
-                color: #035755;
-                margin-bottom: 12px;
-            }
-            .card-text-contagion {
-                font-size: 18px;
-                color: #4B4F51;
-                margin-bottom: 78px;
-            }        
-        }
+  margin-bottom: 70px;
+  .card-contagion {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(20, 20, 20, 0.1);
+    transition: all 0.2s linear;
+    &:hover {
+      box-shadow: 0 15px 30px rgba(20, 20, 20, 0.3);
+      border-bottom: 10px solid #ff383d;
     }
+    .card-body-contagion {
+      .img-contagion {
+        width: 255px;
+        height: 233px;
+        margin: 65px auto;
+      }
+      .card-title-contagion {
+        font-size: 36px;
+        color: #035755;
+        margin-bottom: 12px;
+      }
+      .card-text-contagion {
+        font-size: 18px;
+        color: #4b4f51;
+        margin-bottom: 78px;
+      }
+    }
+  }
 }
-
