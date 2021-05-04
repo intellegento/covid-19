@@ -1,39 +1,39 @@
-/* Roboto-regular */
+/* Gelion-Regular */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Gelion';
   font-style: normal;
   font-weight: 400;
   src: local(''),
-  url('../inline/Roboto-Regular.ttf'); 
+  url('../inline/Gelion-Regular.ttf'); 
 }
-/* Roboto-bold */
+/* Gelion-Bold */
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Gelion';
   font-style: normal;
   font-weight: 700;
   src: local(''),
-  url('../inline/Roboto-Bold.ttf'); 
+  url('../inline/Gelion-Bold.ttf'); 
 }
-/* Montserrat-Regular */
+/* RedHatDisplay-Regular */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'RedHat';
   font-style: normal;
   font-weight: 400;
   src: local(''),
-  url('../inline/Montserrat-Regular.ttf'); 
+  url('../inline/RedHatDisplay-Regular.ttf'); 
 }
 
-/* Montserrat-bold */
+/* RedHatDisplay-Bold */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'RedHat';
   font-style: normal;
   font-weight: 700;
   src: local(''),
-  url('../inline/Montserrat-Bold.ttf'); 
+  url('../inline/RedHatDisplay-Bold.ttf'); 
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Gelion';
   color: #212121;
   position: relative;
 }

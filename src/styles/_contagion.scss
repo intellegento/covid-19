@@ -4,11 +4,12 @@
     background-color: #fff;
     border: none;
     border-radius: 10px;
+    border-bottom: 6px solid #fff;
     box-shadow: 0 15px 30px rgba(20, 20, 20, 0.1);
     transition: all 0.2s linear;
     &:hover {
       box-shadow: 0 15px 30px rgba(20, 20, 20, 0.3);
-      border-bottom: 10px solid #ff383d;
+      border-color: #ff383d;
     }
     .card-body-contagion {
       .img-contagion {

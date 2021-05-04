@@ -26,6 +26,8 @@
     height: 78px;
     border: none;
     border-radius: 39px;
+    border-top-left-radius: 39px;
+    border-bottom-left-radius: 39px;
     transition: all 0.2s linear;
 
     &:hover {
@@ -33,8 +35,4 @@
     }
   }
 }
-.input-group
-  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
-  border-top-left-radius: 39px;
-  border-bottom-left-radius: 39px;
-}
+
