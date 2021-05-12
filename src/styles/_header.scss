@@ -75,6 +75,13 @@
   }
 
   .promo {
+    height: 80vh;
     margin: 40px auto;
+
+    .img-promo {
+      min-height:100%;
+      background-image: url("/src/resource/Illustration01.svg");
+      background-size: contain;
+    }
   }
 }

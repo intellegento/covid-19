@@ -4,6 +4,7 @@
   margin: 50px auto 150px auto;
   box-shadow: 0 15px 30px rgba(20, 20, 20, 0.1);
   border-radius: 57px;
+  position: relative;
 
   .subscribe-form {
     font-size: 22px;
@@ -26,8 +27,8 @@
     height: 78px;
     border: none;
     border-radius: 39px;
-    border-top-left-radius: 39px;
-    border-bottom-left-radius: 39px;
+    border-top-left-radius: 39px !important;
+    border-bottom-left-radius: 39px !important;
     transition: all 0.2s linear;
 
     &:hover {
