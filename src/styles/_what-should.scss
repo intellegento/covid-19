@@ -1,7 +1,5 @@
-.what-should-t {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
+.what-row {
+  margin-bottom: 2rem;
   .what-should-number {
     font-size: 44px;
     color: #fa5652;
@@ -13,17 +11,50 @@
     text-align: center;
     margin-right: 40px;
   }
-
+  
   .what-should-title {
     font-size: 47px;
     color: #035755;
     font-weight: 700;
+    margin-left: 2rem;
+    text-transform: capitalize;
   }
+  
+  .what-should-descr {
+    font-size: 18px;
+    color: #4b4f51;
+    margin-left: 2rem;
+  }
+  
+  .what-img-cover {
+    position: relative;
+    padding-top: 50.25%;
+  
+    img {
+      position: absolute;
+      margin: 0 auto;
+      top: 0;
+      width: 85%;
+      height: auto;
+    }
+  }  
 }
 
-.what-should-descr {
-  font-size: 18px;
-  color: #4b4f51;
-  width: 70%;
-  margin-left: 110px;
+@media (max-width: 768px) {
+
+  .what-row {
+    margin-bottom: 4rem;
+  }
+
+  .what-img-cover {
+    padding-top: 85.25% !important;
+  }
+
+  .what-img-cover-first {
+    order: 1;
+  }
+
+  .what-text-second {
+    order: 2;
+  }
 }

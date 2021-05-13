@@ -43,7 +43,7 @@
 
         <div class="container">
             <div class="row align-items-center promo">
-                <div class="col-12 col-lg-5">
+                <div class="col-12 col-lg-5 text-promo">
                     <div class="promo-text">
                         <h2 class="title">COVID-19</h2>
                         <h1 class="sub-title">Alert Stay at Home quarantine<br>To stop Corona virus</h1>
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-7 img-promo">
-                    
+                    <img src="<%=require('./resource/Illustration01.svg')%>" alt="Covid-19">
                 </div>
             </div>
         </div>
@@ -65,10 +65,10 @@
     <section id="about">
         <div class="container">
             <div class="row align-items-center about-row">
-                <div class="col">
-                    <img src="<%=require('./resource/Group5404.svg')%>" alt="">
+                <div class="col-3 col-md-6 about-img">
+                    <img src="<%=require('./resource/Group5404.svg')%>" alt="Covid-19"> 
                 </div>
-                <div class="col">
+                <div class="col-9 col-md-6">
                     <div class="promo-text">
                         <h2 class="title">What Is Covid-19</h2>
                         <h1 class="sub-title">Coronavirus</h1>
@@ -77,6 +77,8 @@
                             has caused a recent outbreak of respiratory illness now called COVID-19.Lauren Sauer, M.S., the director of
                             operations with the Johns Hopkins Office of Critical Event Preparedness and Response
                         </div>
+                        <button class="about-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            name="let up help" type="button">Learn More</button>
                     </div>
                 </div>
             </div>
@@ -94,7 +96,7 @@
                 </div>
             </div>
             <div class="row row-contagion">
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <div class="card card-contagion text-center">
                         <div class="card-body card-body-contagion">
                             <img class="img-contagion" src="<%=require('./resource/air.svg')%>" alt="">
@@ -104,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <div class="card card-contagion text-center">
                         <div class="card-body card-body-contagion">
                             <img class="img-contagion" src="<%=require('./resource/human.svg')%>" alt="">
@@ -113,7 +115,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <div class="card card-contagion text-center">
                         <div class="card-body card-body-contagion">
                             <img class="img-contagion" src="<%=require('./resource/contained.svg')%>" alt="">
@@ -154,68 +156,81 @@
                     has caused
                 </div>
             </div>
-            <div class="row align-items-center justify-content-between">
-                <div class="col">
-                    <div class="what-should-t">
+            <div class="row align-items-center justify-content-between what-row">
+                <div class="col-12 col-md-6 row what-text-second">
+                    <div class="col-2">
                         <div class="what-should-number">01</div>
-                        <div class="what-should-title">wear masks</div>
                     </div>
-                    <div class="what-should-descr">Continually seize impactful vortals rather than future-proof supply chains. Uniquely
+                    <div class="col-10">
+                        <div class="what-should-title">wear masks</div>
+                        <div class="what-should-descr">Continually seize impactful vortals rather than future-proof supply chains.
+                            Uniquely
+                            exploit emerging niches via fully tested meta-services. Competently pursue standards compliant
+                            leadership
+                            skills
+                            vis-a-vis pandemic "outside the box" thinking. Objectively
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6  what-img-cover what-img-cover-first">
+                    <img class="img-what" src="<%=require('./resource/mask-girl.svg')%>" alt="">
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-between what-row">
+                <div class="col-12 col-md-6 what-img-cover">
+                    <img class="img-what" src="<%=require('./resource/mask-girl-hand.svg')%>" alt="">
+                </div>
+                <div class="col-12 col-md-6 row">
+                    <div class="col-2">
+                        <div class="what-should-number">02</div>
+                    </div>
+                    <div class="col-10">
+                        <div class="what-should-title">Wash Your Hands</div>
+                        <div class="what-should-descr">Continually seize impactful vortals rather than future-proof supply chains. Uniquely
+                        exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills
+                        vis-a-vis pandemic "outside the box" thinking. Objectively Continually seize impactful vortals
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-between what-row">
+                <div class="col-12 col-md-6 row what-text-second">
+                    <div class="col-2">
+                        <div class="what-should-number">03</div>
+                    </div>
+                    <div class="col-10">
+                        <div class="what-should-title">Use nose - rag</div>
+                        <div class="what-should-descr">Continually seize impactful vortals rather than future-proof supply chains. Uniquely
                         exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills
                         vis-a-vis pandemic "outside the box" thinking. Objectively
+                        </div>
                     </div>
                 </div>
-                <div class="col">
-                    <img class="img-symptoms" src="<%=require('./resource/mask-girl.svg')%>" alt="">
+                <div class="col-12 col-md-6 what-img-cover what-img-cover-first">
+                    <img class="img-what" src="<%=require('./resource/mask-girl-rag.svg')%>" alt="">
                 </div>
             </div>
-            <div class="row align-items-center justify-content-between">
-
-                <div class="col">
-                    <img class="img-symptoms" src="<%=require('./resource/mask-girl-hand.svg')%>" alt="">
+            <div class="row align-items-center justify-content-between what-row">
+                <div class="col-12 col-md-6 what-img-cover">
+                    <img class="img-what" src="<%=require('./resource/mask-girl-contact.svg')%>" alt="">
                 </div>
-                <div class="col">
-                    <div class="what-should-t">
-                        <div class="what-should-number">02</div>
-                        <div class="what-should-title">Wash Your Hands</div>
-                    </div>
-                    <div class="what-should-descr">Continually seize impactful vortals rather than future-proof supply chains. Uniquely
-                        exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills
-                        vis-a-vis pandemic "outside the box" thinking. Objectively Continually seize impactful vortals</div>
-                </div>
-            </div>
-            <div class="row align-items-center justify-content-between">
-                <div class="col">
-                    <div class="what-should-t">
-                        <div class="what-should-number">03</div>
-                        <div class="what-should-title">Use nose - rag</div>
-                    </div>
-                    <div class="what-should-descr">Continually seize impactful vortals rather than future-proof supply chains. Uniquely
-                        exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills
-                        vis-a-vis pandemic "outside the box" thinking. Objectively</div>
-                </div>
-                <div class="col">
-                    <img class="img-symptoms" src="<%=require('./resource/mask-girl-rag.svg')%>" alt="">
-                </div>
-            </div>
-            <div class="row align-items-center justify-content-between">
-
-                <div class="col">
-                    <img class="img-symptoms" src="<%=require('./resource/mask-girl-contact.svg')%>" alt="">
-                </div>
-                <div class="col">
-                    <div class="what-should-t">
+                <div class="col-12 col-md-6 row">
+                    <div class="col-2">
                         <div class="what-should-number">04</div>
-                        <div class="what-should-title">Avoid contacts</div>
                     </div>
-                    <div class="what-should-descr">Continually seize impactful vortals rather than future-proof supply chains. Uniquely
+                    <div class="col-10">
+                        <div class="what-should-title">Avoid contacts</div>
+                        <div class="what-should-descr">Continually seize impactful vortals rather than future-proof supply chains. Uniquely
                         exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills
-                        vis-a-vis pandemic</div>
+                        vis-a-vis pandemic
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+<div class="footer-gradient">
     <section id="live-report">
         <div class="container">
             <div class="map">
@@ -255,10 +270,10 @@
                 </div>
                 <div class="col-auto">
                     <div class="footer-links">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><object type="image/svg+xml" data="<%=require('./resource/social/twitter-brands.svg')%>"></object></a>
+                        <a href="#"><object type="image/svg+xml" data="<%=require('./resource/social/youtube-brands.svg')%>"></object></a>
+                        <a href="#"><object type="image/svg+xml" data="<%=require('./resource/social/instagram-square-brands (1).svg')%>"></object></a>
+                        <a href="#"><object type="image/svg+xml" data="<%=require('./resource/social/facebook-square-brands.svg')%>"></object></a>
                     </div>
                 </div>
             </div>
@@ -267,6 +282,7 @@
             </div>
         </div>
     </footer>
+</div>
 </body>
 
 </html>

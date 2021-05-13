@@ -25,3 +25,25 @@
   max-width: 60%;
   margin: 0 auto;
 }
+
+@media (max-width: 1399px) {
+
+  .title {
+    font-size: 28px;
+  } 
+  
+  .sub-title {
+    font-size: 44px;
+  }
+
+  .descr {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .center-t {
+    max-width: 80%;
+  }
+}
