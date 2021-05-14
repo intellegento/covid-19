@@ -30,6 +30,9 @@
   .footer-links {
     a {
       margin-right: 40px;
+      &:last-child {
+        margin-right: 0;
+      }
 
       object {
         opacity: 0.3;
@@ -57,5 +60,23 @@
     .nav-list {
       display: block !important;
     }
+  }
+}
+
+@media (max-width: 771px) {
+  .logo-01 {
+    order: 1;
+  }
+
+  .nav-02 {
+    order: 3;
+    .nav-list {
+      display: flex !important;
+      justify-content: space-between;
+    }
+  }
+
+  .social-03 {
+    order: 2;
   }
 }

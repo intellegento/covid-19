@@ -234,7 +234,35 @@
     <section id="live-report">
         <div class="container">
             <div class="map">
-                <img class="map-img" src="<%=require('./resource/map.svg')%>" alt="">
+                <style>
+                    .embed-container {
+                        position: relative;
+                        padding-bottom: 80%;
+                        height: 0;
+                        max-width: 100%;
+                    }
+            
+                    .embed-container iframe,
+                    .embed-container object,
+                    .embed-container iframe {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+            
+                    small {
+                        position: absolute;
+                        z-index: 40;
+                        bottom: 0;
+                        margin-bottom: -15px;
+                    }
+                </style>
+                <div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0"
+                        marginwidth="0" title="COVID-19"
+                        src="https://covid19.who.int/"></iframe></div>
+            
             </div>
             
         </div>
@@ -255,10 +283,10 @@
     <footer>
         <div class="container">
             <div class="row footer-row">
-                <div class="col-auto">
+                <div class="col-auto logo-01">
                     <img src="<%=require('./resource/Logo.svg')%>" alt="">
                 </div>
-                <div class="col-auto">
+                <div class="col-auto nav-02">
                     <nav class="nav-footer">
                         <ul class="nav-list">
                             <li class="nav-item"><a href="#overview">Overview</a></li>
@@ -268,7 +296,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-auto">
+                <div class="col-auto social-03">
                     <div class="footer-links">
                         <a href="#"><object type="image/svg+xml" data="<%=require('./resource/social/twitter-brands.svg')%>"></object></a>
                         <a href="#"><object type="image/svg+xml" data="<%=require('./resource/social/youtube-brands.svg')%>"></object></a>
