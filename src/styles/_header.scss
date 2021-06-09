@@ -6,6 +6,7 @@
     rgba(255, 248, 248, 0.48),
     rgba(181, 116, 116, 0.45)
   );
+  overflow: hidden;
 
   .navbar-collapse-style {
     flex-grow: 0;
@@ -78,8 +79,8 @@
   .promo {
     margin: 40px auto;
 
-    
-    
+
+
 
     .img-promo {
       position: relative;
