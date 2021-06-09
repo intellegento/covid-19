@@ -77,20 +77,31 @@
 
   .promo {
     margin: 40px auto;
-  }
 
-  .img-promo {
-    position: relative;
-    padding-top: 56.25%;
     
-    img {
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 110%;
-      height: auto;
+    
+
+    .img-promo {
+      position: relative;
+      padding-top: 56.25%;
+
+      img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 110%;
+        height: auto;
+        transition: all 2s linear;
+      }
     }
   }
+}
+
+#axis:hover .rotate360cw {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
 }
 
 @media (max-width: 991px) {
