@@ -12,7 +12,7 @@
 
 ### SCSS
 
-![CSS3](https://img.icons8.com/color/48/000000/css3.png)
+![SCSS](https://img.icons8.com/color/48/000000/css3.png)
 
 ### Java Script
 
@@ -20,11 +20,16 @@
 
 ### Node.JS
 
-![JS](https://img.icons8.com/color/48/000000/nodejs.png)
+![Node.JS](https://img.icons8.com/color/48/000000/nodejs.png)
+
+### Bootstrap
+
+![Bootstrap](https://img.icons8.com/color/50/000000/bootstrap.png)
+
 
 ### WebPack
 
-![JS](https://img.icons8.com/color/48/000000/webpack.png)
+![WebPack](https://img.icons8.com/color/48/000000/webpack.png)
 
 ### _Для проекта используется Node.JS v15.11.0_
 
