@@ -1,5 +1,13 @@
 .row-contagion {
   margin-bottom: 70px;
+  position: relative;
+  .img-contagion-virus {
+    position: absolute;
+    top: 66%;
+    left: -9%;
+    width: 21%;
+    opacity: 0.8;
+  }
   .card-contagion {
     background-color: #fff;
     height: 40rem;
@@ -25,7 +33,6 @@
       .card-text-contagion {
         font-size: 18px;
         color: #4b4f51;
-        
       }
     }
   }

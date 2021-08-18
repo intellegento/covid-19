@@ -1,5 +1,20 @@
 .what-row {
   margin-bottom: 2rem;
+  position: relative;
+  .what-virus-green {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 10%;
+  }
+
+  .what-virus {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    width: 50%;
+  }
+
   .what-should-number {
     font-size: 44px;
     color: #fa5652;
@@ -11,7 +26,7 @@
     text-align: center;
     margin-right: 40px;
   }
-  
+
   .what-should-title {
     font-size: 47px;
     line-height: 1;
@@ -20,17 +35,31 @@
     margin-left: 2rem;
     text-transform: capitalize;
   }
-  
+
   .what-should-descr {
     font-size: 18px;
     color: #4b4f51;
     margin-left: 2rem;
   }
-  
+
   .what-img-cover {
     position: relative;
     padding-top: 50.25%;
-  
+
+    .what-virus-green {
+      position: absolute;
+      top: 10%;
+      right: -85%;
+      width: 15%;
+    }
+
+    .what-virus {
+      position: absolute;
+      top: 20%;
+      right: -135%;
+      width: 50%;
+    }
+
     img {
       position: absolute;
       margin: 0 auto;
@@ -38,11 +67,10 @@
       width: 85%;
       height: auto;
     }
-  }  
+  }
 }
 
 @media (max-width: 768px) {
-
   .what-row {
     margin-bottom: 4rem;
   }

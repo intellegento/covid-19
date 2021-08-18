@@ -7,93 +7,162 @@
     rgba(181, 116, 116, 0.45)
   );
   overflow: hidden;
+  position: relative;
 
-  .navbar-collapse-style {
-    flex-grow: 0;
+  .header-virus {
+    position: absolute;
+    top: 10%;
+    right: 50%;
+    width: 15%;
+    &:hover {
+      animation: shake 0.5s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes shake {
+      0% {
+        transform: translate(1px, 1px) rotate(0deg);
+      }
+      10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+      }
+      20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+      }
+      30% {
+        transform: translate(3px, 2px) rotate(0deg);
+      }
+      40% {
+        transform: translate(1px, -1px) rotate(1deg);
+      }
+      50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+      }
+      60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+      }
+      70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+      }
+      80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+      }
+      90% {
+        transform: translate(1px, 2px) rotate(0deg);
+      }
+      100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+      }
+    }
   }
+}
 
-  .nav-item {
+.header-virus-2 {
+  position: absolute;
+  top: 34%;
+  right: 30%;
+  width: 5%;
+  opacity: 0.4;
+}
+
+.header-virus-3 {
+  position: absolute;
+  top: 12%;
+  right: 0%;
+  width: 10%;
+  opacity: 1;
+}
+
+.header-virus-4 {
+  position: absolute;
+  top: 38%;
+  right: -11%;
+  width: 21%;
+  opacity: 0.8;
+}
+
+.navbar-collapse-style {
+  flex-grow: 0;
+}
+
+.nav-item {
+  color: #035755;
+  font-weight: 700;
+  margin-left: 30px;
+
+  .nav-link {
+    position: relative;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 5px;
+      height: 5px;
+      background-color: #fb4c47;
+      opacity: 0;
+      border-radius: 50%;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      z-index: 1;
+      transition: opacity 0.2s linear;
+    }
+
+    &:hover {
+      color: #fb4c47;
+    }
+    &:hover::after {
+      opacity: 1;
+    }
+  }
+}
+
+.btn-nav {
+  width: 154px;
+  height: 55px;
+  color: #ff383d;
+  border: 2px solid #ff383d;
+  border-radius: 25px;
+
+  &:hover {
     color: #035755;
-    font-weight: 700;
-    margin-left: 30px;
-
-    .nav-link {
-      position: relative;
-
-      &::after {
-        content: "";
-        display: block;
-        width: 5px;
-        height: 5px;
-        background-color: #fb4c47;
-        opacity: 0;
-        border-radius: 50%;
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        z-index: 1;
-        transition: opacity 0.2s linear;
-      }
-
-      &:hover {
-        color: #fb4c47;
-      }
-      &:hover::after {
-        opacity: 1;
-      }
-    }
+    border: 2px solid #035755;
   }
+}
+.btn:focus {
+  box-shadow: none;
+}
 
-  .btn-nav {
-    width: 154px;
-    height: 55px;
-    color: #ff383d;
-    border: 2px solid #ff383d;
-    border-radius: 25px;
+.promo-btn {
+  color: #fff;
+  font-size: 20px;
+  background-color: #fb4c47;
+  width: 250px;
+  height: 80px;
+  border-radius: 40px;
+  border: none;
+  margin-bottom: 40px;
+  transition: all 0.2s linear;
 
-    &:hover {
-      color: #035755;
-      border: 2px solid #035755;
-    }
+  &:hover {
+    background-color: #035755;
   }
-  .btn:focus {
-    box-shadow: none;
-  }
+}
 
-  .promo-btn {
-    color: #fff;
-    font-size: 20px;
-    background-color: #fb4c47;
-    width: 250px;
-    height: 80px;
-    border-radius: 40px;
-    border: none;
-    margin-bottom: 40px;
-    transition: all 0.2s linear;
+.promo {
+  margin: 40px auto;
 
-    &:hover {
-      background-color: #035755;
-    }
-  }
+  .img-promo {
+    position: relative;
+    padding-top: 56.25%;
 
-  .promo {
-    margin: 40px auto;
-
-
-
-
-    .img-promo {
-      position: relative;
-      padding-top: 56.25%;
-
-      img {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 110%;
-        height: auto;
-        transition: all 2s linear;
-      }
+    img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 110%;
+      height: auto;
+      transition: all 2s linear;
     }
   }
 }

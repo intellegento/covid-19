@@ -1,11 +1,27 @@
 .about-row {
   margin-bottom: 70px;
   margin-top: 40px;
+  position: relative;
+
+  .about-virus {
+    position: absolute;
+    top: 130%;
+    right: -5%;
+    width: 15%;
+  }
+
+  .about-virus-big {
+    position: absolute;
+    top: 50%;
+    right: -25%;
+    width: 35%;
+    opacity: 0.5;
+  }
 
   .about-img {
     position: relative;
     padding-top: 41.25%;
-    
+
     img {
       position: absolute;
       left: 0;
@@ -20,20 +36,17 @@
     height: 65px;
     font-size: 20px;
     margin-top: -1rem;
-    color: #FA5652;
-    background-color: rgba($color: #FA5652, $alpha: 0.15);
+    color: #fa5652;
+    background-color: rgba($color: #fa5652, $alpha: 0.15);
     border: none;
     border-radius: 32px;
     transition: all 0.2s linear;
-
-
     &:hover {
       color: #035755;
-    background-color: rgba($color: #035755, $alpha: 0.15);
+      background-color: rgba($color: #035755, $alpha: 0.15);
     }
-  }  
+  }
 }
-
 
 @media (max-width: 771px) {
   .about-row {
@@ -54,5 +67,4 @@
       margin: 0 20px;
     }
   }
-  
 }

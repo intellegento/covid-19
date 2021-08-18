@@ -2,9 +2,83 @@
   display: flex;
   justify-content: center;
   margin: -2rem 0 4rem 0;
+  position: relative;
+  max-height: 800px;
 
   img {
-    width: 100%;
-  height: auto;
+    width: 60%;
+    height: auto;
+  }
+  .symptoms-fever {
+    position: absolute;
+    top: 11%;
+    left: 5%;
+    width: 45%;
+    cursor: pointer;
+    transition: all 1s;
+
+    &:hover path {
+      opacity: 1;
+    }
+  }
+
+  .symptoms-throatPain {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 45%;
+    cursor: pointer;
+    transition: all 1s;
+    &:hover path {
+      opacity: 1;
+    }
+  }
+
+  .symptoms-dypsnoea {
+    position: absolute;
+    top: 63%;
+    left: 5%;
+    width: 45%;
+    transition: all 1s;
+
+    &:hover path {
+      opacity: 1;
+    }
+  }
+
+  .symptoms-headache {
+    position: absolute;
+    top: 9%;
+    right: 0%;
+    width: 45%;
+    transition: all 1s;
+
+    &:hover path {
+      opacity: 1;
+    }
+  }
+
+  .symptoms-runnyNose {
+    position: absolute;
+    top: 36%;
+    right: 1%;
+    width: 45%;
+    transition: all 1s;
+
+    &:hover path {
+      opacity: 1;
+    }
+  }
+
+  .symptoms-shakingChills {
+    position: absolute;
+    top: 66%;
+    right: -5%;
+    width: 45%;
+    transition: all 1s;
+
+    &:hover path {
+      opacity: 1;
+    }
   }
 }

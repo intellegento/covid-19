@@ -1,8 +1,21 @@
 .footer-gradient {
-    background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.29),
-      rgba(255, 248, 248, 0.48),
-      rgba(181, 116, 116, 0.45)
-    );
-}  
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.29),
+    rgba(255, 248, 248, 0.48),
+    rgba(181, 116, 116, 0.45)
+  );
+  .footer-virus {
+    position: absolute;
+    top: 60%;
+    right: 15%;
+    width: 10%;
+  }
+  .footer-virus-big {
+    position: absolute;
+    top: 70%;
+    right: -10%;
+    width: 20%;
+  }
+}

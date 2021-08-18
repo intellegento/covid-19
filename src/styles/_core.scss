@@ -1,42 +1,39 @@
 /* Gelion-Regular */
 @font-face {
-  font-family: 'Gelion';
+  font-family: "Gelion";
   font-style: normal;
   font-weight: 400;
-  src: local(''),
-  url('../inline/Gelion-Regular.ttf'); 
+  src: local(""), url("../inline/Gelion-Regular.ttf");
 }
 /* Gelion-Bold */
 @font-face {
-  font-family: 'Gelion';
+  font-family: "Gelion";
   font-style: normal;
   font-weight: 700;
-  src: local(''),
-  url('../inline/Gelion-Bold.ttf'); 
+  src: local(""), url("../inline/Gelion-Bold.ttf");
 }
 /* RedHatDisplay-Regular */
 @font-face {
-  font-family: 'RedHat';
+  font-family: "RedHat";
   font-style: normal;
   font-weight: 400;
-  src: local(''),
-  url('../inline/RedHatDisplay-Regular.ttf'); 
+  src: local(""), url("../inline/RedHatDisplay-Regular.ttf");
 }
 
 /* RedHatDisplay-Bold */
 @font-face {
-  font-family: 'RedHat';
+  font-family: "RedHat";
   font-style: normal;
   font-weight: 700;
-  src: local(''),
-  url('../inline/RedHatDisplay-Bold.ttf'); 
+  src: local(""), url("../inline/RedHatDisplay-Bold.ttf");
 }
 
 body {
-  font-family: 'Gelion';
+  font-family: "Gelion";
   color: #212121;
   position: relative;
+
+  .container-overflow {
+    overflow: hidden;
+  }
 }
-
-
-
